@@ -528,21 +528,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@companion-module/base@npm:~1.4.0":
-  version: 1.4.0
-  resolution: "@companion-module/base@npm:1.4.0"
+"@companion-module/base@npm:~1.10.0":
+  version: 1.10.0
+  resolution: "@companion-module/base@npm:1.10.0"
   dependencies:
-    "@sentry/node": "npm:^7.36.0"
-    "@sentry/tracing": "npm:^7.36.0"
-    ajv: "npm:^8.12.0"
-    debounce-fn: "github:julusian/debounce-fn#4.0.0-maxWaithack.0"
+    ajv: "npm:^8.17.1"
+    colord: "npm:^2.9.3"
     ejson: "npm:^2.2.3"
     eventemitter3: "npm:^4.0.7"
-    nanoid: "npm:^3.3.4"
+    mimic-fn: "npm:^3.1.0"
+    nanoid: "npm:^3.3.7"
     p-queue: "npm:^6.6.2"
     p-timeout: "npm:^4.1.0"
-    tslib: "npm:^2.5.0"
-  checksum: 10c0/0d9319ae60062452465813f4b681fbe9a13efdec967a3c9b8d38f93efd9623bfccd3cce7f135bde410d43ecb682ec87f30dd307f8fe4ccc1f33582e0f1d67c64
+    tslib: "npm:^2.7.0"
+  checksum: 10c0/d2e9bc141ffd14a60ac8decc114390db9956cd12d5dd182ea441f081bfd8011b9b702a51c23eca837a799e5c8b4f8b2e7591c5165a6e3722891330a18b356b99
   languageName: node
   linkType: hard
 
@@ -1019,71 +1018,6 @@ __metadata:
   version: 0.2.1
   resolution: "@pkgr/core@npm:0.2.1"
   checksum: 10c0/760fcb5999a1794179ad7f498dfc342f9135b846d096bda43f07d4278d5557e87e7c889f5670d1338a802dffcc6a52548cc9be3fbd97d68ce3b3901d5d6160cd
-  languageName: node
-  linkType: hard
-
-"@sentry-internal/tracing@npm:7.47.0":
-  version: 7.47.0
-  resolution: "@sentry-internal/tracing@npm:7.47.0"
-  dependencies:
-    "@sentry/core": "npm:7.47.0"
-    "@sentry/types": "npm:7.47.0"
-    "@sentry/utils": "npm:7.47.0"
-    tslib: "npm:^1.9.3"
-  checksum: 10c0/cbbf97820e3cdaa7d564a2f7b4d06d83f8106ace8f0d43c00ec30de3eed21e92368184d44395956cbff12048f04e0f65a1e9ac8471cc62e85e28758c00b83b6d
-  languageName: node
-  linkType: hard
-
-"@sentry/core@npm:7.47.0":
-  version: 7.47.0
-  resolution: "@sentry/core@npm:7.47.0"
-  dependencies:
-    "@sentry/types": "npm:7.47.0"
-    "@sentry/utils": "npm:7.47.0"
-    tslib: "npm:^1.9.3"
-  checksum: 10c0/19e55ec9a25f676207ac0176abbc56446476d58127a2bcb5d17052259d42fbb60962471ca83eb3cad351813ac38518a2c5c0bc8aaa465d8be5b61637f7ab0825
-  languageName: node
-  linkType: hard
-
-"@sentry/node@npm:^7.36.0":
-  version: 7.47.0
-  resolution: "@sentry/node@npm:7.47.0"
-  dependencies:
-    "@sentry-internal/tracing": "npm:7.47.0"
-    "@sentry/core": "npm:7.47.0"
-    "@sentry/types": "npm:7.47.0"
-    "@sentry/utils": "npm:7.47.0"
-    cookie: "npm:^0.4.1"
-    https-proxy-agent: "npm:^5.0.0"
-    lru_map: "npm:^0.3.3"
-    tslib: "npm:^1.9.3"
-  checksum: 10c0/2444c1d6c169dcf729d4819c03004cc4a9a8eea0a3cd22191c977ce25a26012f3a81107f259dba5656d823eed93807352a0a910d2a54cd1e52224548399b22ac
-  languageName: node
-  linkType: hard
-
-"@sentry/tracing@npm:^7.36.0":
-  version: 7.47.0
-  resolution: "@sentry/tracing@npm:7.47.0"
-  dependencies:
-    "@sentry-internal/tracing": "npm:7.47.0"
-  checksum: 10c0/8df67b4bf2ba6286f75cf9ef77cf61ceaa488fa9d525ac5033d34eb491a45f586af923e5c17dd49f63c101532494c82c200fe560b09232c6ea8671e7ba70fffc
-  languageName: node
-  linkType: hard
-
-"@sentry/types@npm:7.47.0":
-  version: 7.47.0
-  resolution: "@sentry/types@npm:7.47.0"
-  checksum: 10c0/2fc63a7d9d77a1afb3b000c07211ed113fd40db4f4ae5da0d3ac38a0d5d0e41e721b9693e62c6ac0c0e9b1831947bb65aa10d4d4bc800975b2fb30a4f910b5c1
-  languageName: node
-  linkType: hard
-
-"@sentry/utils@npm:7.47.0":
-  version: 7.47.0
-  resolution: "@sentry/utils@npm:7.47.0"
-  dependencies:
-    "@sentry/types": "npm:7.47.0"
-    tslib: "npm:^1.9.3"
-  checksum: 10c0/3879332f058a533aaf88353a0b75d2196a56b4ab31ad7e0eafb72585843c15b1dc9a67e4934b1f5a6ed24443f6f256e47b7bc81eea179c73e78ad875ce7bcf3c
   languageName: node
   linkType: hard
 
@@ -1671,7 +1605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^8.0.0, ajv@npm:^8.9.0":
+"ajv@npm:^8.0.0, ajv@npm:^8.17.1, ajv@npm:^8.9.0":
   version: 8.17.1
   resolution: "ajv@npm:8.17.1"
   dependencies:
@@ -1680,18 +1614,6 @@ __metadata:
     json-schema-traverse: "npm:^1.0.0"
     require-from-string: "npm:^2.0.2"
   checksum: 10c0/ec3ba10a573c6b60f94639ffc53526275917a2df6810e4ab5a6b959d87459f9ef3f00d5e7865b82677cb7d21590355b34da14d1d0b9c32d75f95a187e76fff35
-  languageName: node
-  linkType: hard
-
-"ajv@npm:^8.12.0":
-  version: 8.12.0
-  resolution: "ajv@npm:8.12.0"
-  dependencies:
-    fast-deep-equal: "npm:^3.1.1"
-    json-schema-traverse: "npm:^1.0.0"
-    require-from-string: "npm:^2.0.2"
-    uri-js: "npm:^4.2.2"
-  checksum: 10c0/ac4f72adf727ee425e049bc9d8b31d4a57e1c90da8d28bcd23d60781b12fcd6fc3d68db5df16994c57b78b94eed7988f5a6b482fd376dc5b084125e20a0a622e
   languageName: node
   linkType: hard
 
@@ -2245,6 +2167,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"colord@npm:^2.9.3":
+  version: 2.9.3
+  resolution: "colord@npm:2.9.3"
+  checksum: 10c0/9699e956894d8996b28c686afe8988720785f476f59335c80ce852ded76ab3ebe252703aec53d9bef54f6219aea6b960fb3d9a8300058a1d0c0d4026460cd110
+  languageName: node
+  linkType: hard
+
 "colorette@npm:^2.0.14, colorette@npm:^2.0.19":
   version: 2.0.19
   resolution: "colorette@npm:2.0.19"
@@ -2294,13 +2223,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cookie@npm:^0.4.1":
-  version: 0.4.2
-  resolution: "cookie@npm:0.4.2"
-  checksum: 10c0/beab41fbd7c20175e3a2799ba948c1dcc71ef69f23fe14eeeff59fc09f50c517b0f77098db87dbb4c55da802f9d86ee86cdc1cd3efd87760341551838d53fca2
-  languageName: node
-  linkType: hard
-
 "cross-spawn@npm:^6.0.5":
   version: 6.0.5
   resolution: "cross-spawn@npm:6.0.5"
@@ -2333,15 +2255,6 @@ __metadata:
     shebang-command: "npm:^2.0.0"
     which: "npm:^2.0.1"
   checksum: 10c0/053ea8b2135caff68a9e81470e845613e374e7309a47731e81639de3eaeb90c3d01af0e0b44d2ab9d50b43467223b88567dfeb3262db942dc063b9976718ffc1
-  languageName: node
-  linkType: hard
-
-"debounce-fn@github:julusian/debounce-fn#4.0.0-maxWaithack.0":
-  version: 4.0.0-maxWaithack.0
-  resolution: "debounce-fn@https://github.com/julusian/debounce-fn.git#commit=3ca54d1526c19f541fe6f103abbceda31554caa9"
-  dependencies:
-    mimic-fn: "npm:^3.0.0"
-  checksum: 10c0/a25f5394df34b3d07c1c746f673cb2fe60a37aa99208f5bac5284910cee718f0ef52ed7c76a32e06b9147a7fc73899b136ff03a3893bd107a4c816da552e1bfe
   languageName: node
   linkType: hard
 
@@ -4461,13 +4374,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru_map@npm:^0.3.3":
-  version: 0.3.3
-  resolution: "lru_map@npm:0.3.3"
-  checksum: 10c0/d861f14a142a4a74ebf8d3ad57f2e768a5b820db4100ae53eed1a64eb6350912332e6ebc87cb7415ad6d0cd8f3ce6d20beab9a5e6042ccb5996ea0067a220448
-  languageName: node
-  linkType: hard
-
 "make-dir@npm:^3.0.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
@@ -4552,7 +4458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mimic-fn@npm:^3.0.0":
+"mimic-fn@npm:^3.1.0":
   version: 3.1.0
   resolution: "mimic-fn@npm:3.1.0"
   checksum: 10c0/a07cdd8ed6490c2dff5b11f889b245d9556b80f5a653a552a651d17cff5a2d156e632d235106c2369f00cccef4071704589574cf3601bc1b1400a1f620dff067
@@ -4717,12 +4623,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.4":
-  version: 3.3.8
-  resolution: "nanoid@npm:3.3.8"
+"nanoid@npm:^3.3.7":
+  version: 3.3.11
+  resolution: "nanoid@npm:3.3.11"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: 10c0/4b1bb29f6cfebf3be3bc4ad1f1296fb0a10a3043a79f34fbffe75d1621b4318319211cd420549459018ea3592f0d2f159247a6f874911d6d26eaaadda2478120
+  checksum: 10c0/40e7f70b3d15f725ca072dfc4f74e81fcf1fbb02e491cf58ac0c79093adc9b0a73b152bcde57df4b79cd097e13023d7504acb38404a4da7bc1cd8e887b82fe0b
   languageName: node
   linkType: hard
 
@@ -6079,21 +5985,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.8.1, tslib@npm:^1.9.0, tslib@npm:^1.9.3":
+"tslib@npm:^1.8.1, tslib@npm:^1.9.0":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: 10c0/69ae09c49eea644bc5ebe1bca4fa4cc2c82b7b3e02f43b84bd891504edf66dbc6b2ec0eef31a957042de2269139e4acff911e6d186a258fb14069cd7f6febce2
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.1.0, tslib@npm:^2.5.0":
+"tslib@npm:^2.1.0":
   version: 2.5.0
   resolution: "tslib@npm:2.5.0"
   checksum: 10c0/e32fc99cc730dd514e53c44e668d76016e738f0bcc726aad5dbd2d335cf19b87a95a9b1e4f0a9993e370f1d702b5e471cdd4acabcac428a3099d496b9af2021e
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.8.1":
+"tslib@npm:^2.7.0, tslib@npm:^2.8.1":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
@@ -6580,7 +6486,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "youtube-live@workspace:."
   dependencies:
-    "@companion-module/base": "npm:~1.4.0"
+    "@companion-module/base": "npm:~1.10.0"
     "@companion-module/tools": "npm:~2.0.4"
     "@types/jest": "npm:^29.5.0"
     "@types/node": "npm:^20.10.6"
